@@ -1,0 +1,117 @@
+/* General Dark Theme */
+body.dark-theme {
+  background-color: #070707;
+  color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+  padding: 15px 20px;
+}
+
+.navbar-brand img.logo-size {
+  width: 120px;
+}
+
+.nav-link {
+  color: #e65c00;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #e65c00;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #e65c00;
+}
+
+.btn-header {
+  background-color: #e66a11;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-header:hover {
+  background-color: #e65c00;
+}
+
+.btn-login {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #e66a11;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-login i {
+  font-size: 1.5rem;
+}
+
+.btn-login:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+}
+
+.btn-login:active {
+  transform: scale(0.95);
+}
+
+/* Footer */
+.footer-area {
+  background-color: #000;
+  border-top: 2px solid #e65c00;
+  padding-top: 40px;
+}
+.footer-area h5 {
+  color: #ff6f00;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.footer-area a {
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-area a:hover {
+  color: #ff4d37;
+}
+.footer-area ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-area ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-area p {
+  color: #d1d1d1;
+}
+.footer-area .social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+.footer-area hr {
+  border-top: 1px solid #444;
+  margin: 30px 0;
+}
+.footer-area .fa-heart {
+  color: #e65c00;
+}
